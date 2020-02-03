@@ -37,4 +37,6 @@
 }
 .main_image {
     width: 100%;
+    height: auto;
+    background-image: url("/img/South\ Glenmore\ Park\,\ Calgary\,\ Canada.jpg");
 }
