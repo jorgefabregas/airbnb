@@ -15,10 +15,8 @@
 }
 .logo img {
     margin: 1em 0 0.7em 1em;
-    width: 70%;
-    padding: 0.7rem;
-    border-radius: 50%;
-    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, .5);
+    width: 20%;
+    padding: 0.5rem 1rem;
 }
 .nav_menu ul{
     display: inline-flex;
@@ -34,9 +32,9 @@
     padding: 0 1.5rem;
 }
 .main_picture {
-    background-image: url('/img/southglenmorepark.jpg');
-    width: 50%;
-    height: 50%;
+    background-image: url("/img/calgary_lake.jpg");
+    width: 100%;
+    height: auto%;
 }
 .main_picture p {
     color: rgb(219, 49, 49);
