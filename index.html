@@ -14,7 +14,7 @@
     <header>
         <div class="nav_container">
             <div class="logo">
-                <img src="/img/EnjoyB&B Logo.png" alt="EnjoyBnB Logo">
+                <img src="/img/enjoybnb logo.png" alt="EnjoyBnB Logo">
             </div>
             <div class="nav_menu">
                 <ul>
@@ -26,12 +26,39 @@
             </div>
         </div>
     </header>
-    <article class="main_picture">
-        <img src="/img/South Glenmore Park.jpg" width="100%" alt="South Glenmore Park, Calgary, Canada">
+    <article class= "main_picture">
         <p>South Glenmore Park, Calgary, Canada</p>
         <div class="booking_window">
             <h1>Book unique places to stay in your favourite city.</h1>
-            <label class=""></label>
+                <form class="filters" id="filersForm">
+      <label for="brand">Sort by:
+        <select name="brand" id="brand">
+          <option value="brand" selected>Brand</option>
+          <option value="apple" selected>Apple</option>
+          <option value="samsung" selected>Samsung</option>
+          <option value="lenovo" selected>Lenovo</option>
+        </select>
+      </label>
+      <label for="model">Sort by:
+        <select name="model" id="model">
+          <option value="model" selected>Model</option>
+          <option value="iphone" selected>iPhone</option>
+          <option value="galaxy" selected>Galaxy</option>
+          <option value="ideapad" selected>IdeaPad</option>
+        </select>
+      </label>
+      <label for="displaySize">Sort by:
+        <select name="size" id="size">
+          <option value="6.3" selected>6.3"</option>
+          <option value="15.6" selected>15.6"</option>
+          <option value="21.5 " selected>21.5"</option>
+        </select>
+      </label>
+
+     <div>
+       <button type="submit">Filter</button>
+     </div>
+    </form>
         </div>
     </article>
 
