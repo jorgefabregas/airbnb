@@ -35,12 +35,16 @@
     padding: 0 1.5rem;
 }
 .main_picture p {
-    margin: -2rem 0 0 67rem;
-    color: white;
+    color: rgb(219, 49, 49);
     font-family: 'Roboto', sans-serif;
     font-size: 0.6rem;
     text-shadow: black;
 }
 .booking_window {
-    background-color: whitesmoke;
+    width: 35%;
+    height: auto;
+    margin: -5rem 0 0 1rem;
+}
+.booking_window  h1 {
+    color: red;
 }
