@@ -34,7 +34,7 @@
 .main_picture {
     background-image: url("/img/calgary_lake.jpg");
     width: 100%;
-    height: auto%;
+    height: auto;
 }
 .main_picture p {
     color: rgb(219, 49, 49);
